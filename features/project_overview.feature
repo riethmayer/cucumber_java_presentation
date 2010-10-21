@@ -3,5 +3,9 @@ Feature: Project Overview for employees
   DAI employees will need to have an overview about running projects 
   and projects under development, to avoid reinventing the wheel.
 
-  
+  Scenario: Overview about project titles
+    Given A project with title "this Project"
+    When I list all Projects
+    Then I should see "this Project"
+
   
