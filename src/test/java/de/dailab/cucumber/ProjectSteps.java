@@ -1,5 +1,8 @@
 package de.dailab.cucumber;
 
+import cuke4duke.annotation.Pending;
+import cuke4duke.annotation.I18n.EN.*;
+
 public class ProjectSteps{
 
     /** ProjectSteps constructor */
