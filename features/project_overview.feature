@@ -8,4 +8,8 @@ Feature: Project Overview for employees
     When I list all Projects
     Then I should see "this Project"
 
-  
+  Scenario: Overview about project descriptions
+    Given A project with title "With description"
+    And this project has the description "Very informative"
+    When I list all Projects
+    Then I should see "Very informative"
