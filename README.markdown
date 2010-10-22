@@ -10,6 +10,10 @@ After that I run `mvn integration-test` to run the cucumber scenarios.
 
 * Maven2
 
+# I left some broken tests on purpose
+
+In order to have a good starting point doing the clean, rinse and repeat step, there are some steps which might be implemented by yourself.
+
 # Credits
 
 Check out [duke4cuke](http://github.com/aslakhellesoy/cuke4duke).
